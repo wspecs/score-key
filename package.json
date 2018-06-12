@@ -1,0 +1,31 @@
+{
+  "name": "score-key",
+  "version": "0.0.1",
+  "description": "Simple package to get score key value.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "wspecs/score-key",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "mocha ./dist/test/*.js"
+  },
+  "keywords": [
+    "tsm",
+    "starter",
+    "tsm-starter"
+  ],
+  "author": {
+    "name": "Wendly Saintil",
+    "email": "wendlysaintil@gmail.com",
+    "url": "https://twitter.com//wendlysaintil"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.3",
+    "@types/mocha": "^5.2.2",
+    "@types/node": "^10.3.2",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "pythonic": "^1.0.1"
+  }
+}
